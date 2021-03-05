@@ -1,0 +1,33 @@
+<?php
+require 'view/logInOutModal.php';
+require 'view/enregistrement/clients/AjoutClient.php';
+require 'view/enregistrement/vehicules/AjoutVehicule.php';
+require 'view/enregistrement/techniciens/AjoutTechnicien.php';
+require 'view/programmation/AjoutProgrammation.php';
+require 'view/reception/AjoutReception.php';
+require 'view/operateur/AjoutModelTypeVehicule.php';
+require 'view/operateur/AjoutSpecialiteTechnicient.php';
+require 'view/operateur/AjoutTypeMoteur.php';
+require 'view/operateur/AjoutStatutTechnicien.php';
+require 'view/operateur/AjoutGenreClient.php';
+require 'view/reception/ModalChoixTypeReception.php';
+require 'view/observation/recommandation/AjoutRecommandation.php';
+require 'view/livraison/AjoutLivraison.php';
+require 'view/ModalListeUnique.php';
+require 'view/observation/inspection/AjoutInspection.php';
+require 'view/ordreDeReparation/travauxRealises/AjoutProgrammationActivite.php';
+require 'view/ordreDeReparation/maintenance/AjoutMaintenance.php';
+require 'view/ordreDeReparation/maintenanceStandard/AjoutMaintenanceStandard.php';
+require 'view/ModalListeInfoUnique.php';
+require 'view/observation/reclamation/AjoutReclamation.php';
+require 'view/ordreDeReparation/evolutionDesTravaux/AjoutFactureLivraisonEvolution.php';
+require 'view//ordreDeReparation/evolutionDesTravaux/AjoutEvolution.php';
+require 'view/observation/pointage/AjoutPointage.php';
+//require 'view/administrateur/AjoutUtilisateur.php';
+require 'view/ModalSuppression.php';
+require 'view/ModalAlertConfirm.php';
+require 'view/enregistrement/alerts/AjoutRendezvousRevision.php';
+require 'view/enregistrement/alerts/AjoutRendezvousVisite.php';
+require 'view/enregistrement/alerts/AjoutRendezvousAssurance.php';
+require 'view/enregistrement/alerts/AjoutRendezvousGarantie.php';
+
